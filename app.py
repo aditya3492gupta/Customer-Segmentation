@@ -1,5 +1,6 @@
 from flask import Flask, render_template, request, url_for, json, jsonify
 import pickle
+#import all the encessary libraries
 import numpy as np
 import pandas as pd
 from sklearn.preprocessing import StandardScaler
