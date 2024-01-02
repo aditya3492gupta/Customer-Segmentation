@@ -8,13 +8,10 @@
 <body>
     <h1>Clustering Results</h1>
 
-    <h2>Amount vs. Cluster ID</h2>
-    <img src="{{ response.amount_img }}" alt="Amount vs. Cluster ID">
+    <img src="{{ url_for('static', filename='ClusterId_Amount.png') }}" alt="Amount Image">
+    <img src="{{ url_for('static', filename='ClusterId_Frequency.png') }}" alt="Frequency Image">
+    <img src="{{ url_for('static', filename='ClusterId_Recency.png') }}" alt="Recency Image">
 
-    <h2>Frequency vs. Cluster ID</h2>
-    <img src="{{ response.freq_img }}" alt="Frequency vs. Cluster ID">
 
-    <h2>Recency vs. Cluster ID</h2>
-    <img src="{{ response.recency_img }}" alt="Recency vs. Cluster ID">
 </body>
 </html>
