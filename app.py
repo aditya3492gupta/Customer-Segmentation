@@ -23,6 +23,7 @@ from sklearn.exceptions import InconsistentVersionWarning
 warnings.filterwarnings("ignore", category=InconsistentVersionWarning)
 # from semester_Project import preprocess_data
 
+
 app = Flask(__name__, template_folder='templates', static_folder='static', static_url_path='')
 # app = Flask(__name__)
 
@@ -31,7 +32,7 @@ app = Flask(__name__, template_folder='templates', static_folder='static', stati
 model = pickle.load(open('kmeans_model.pkl', 'rb'))
 template_dir = os.path.abspath('templates')
 app.config['TEMPLATES_AUTO_RELOAD'] = True  # Enable template auto-reloading
-app.config['STATIC_FOLDER'] = os.path.abspath('static')
+app.config['STATIC_FOLDER'] = os.path.abspath('static') #Enable Static folder
 
 
 
