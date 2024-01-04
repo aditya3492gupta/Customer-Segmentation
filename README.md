@@ -14,10 +14,10 @@ This Flask application is designed for customer segmentation using the K-Means c
 
 ## Prerequisites
 
-Before running the application, ensure you have the necessary dependencies installed. You can install them using the following:
+Before running the application, please make sure you have the necessary dependencies installed. You can install them using the following:
 
 ```bash
-pip install Flask pandas numpy scikit-learn seaborn matplotlib
+pip install Flask pandas numpy sci-kit-learn seaborn matplotlib
 ```
 
 ## Usage
@@ -45,11 +45,11 @@ pip install Flask pandas numpy scikit-learn seaborn matplotlib
 
 - `app.py`: Flask application script containing the main logic and routes.
 - `templates/`: Folder containing HTML templates for the user interface.
-- `static/`: Folder for storing static files such as images and stylesheets.
+- `static/`: Folder for storing static files such as images, stylesheets, and javascript files.
 
 ## Future Enhancements
 
-The project has potential for further enhancements:
+The project has the potential for further enhancements:
 
 - **User Authentication:** Implement user authentication for secure access.
 - **Real-Time Analysis:** Integrate live data streams for real-time customer segmentation.
