@@ -55,5 +55,8 @@ The project has potential for further enhancements:
 - **Real-Time Analysis:** Integrate live data streams for real-time customer segmentation.
 - **Deployment:** Deploy the application to a production environment for scalability.
 
+## Demo
+![Demo](static/demo.gif)
+
 Feel free to explore additional features and improvements based on your project goals.
 
